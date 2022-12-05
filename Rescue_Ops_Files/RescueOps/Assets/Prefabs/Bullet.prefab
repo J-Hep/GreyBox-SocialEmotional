@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5963003375640719225}
   - component: {fileID: 2002676728495413101}
   - component: {fileID: 7909016583448198283}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5824560039880909361
 MeshFilter:
@@ -127,4 +127,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670bcbce5aa39bd428a60d97686eec33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 3
+  life: 1.5
