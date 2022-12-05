@@ -5969,6 +5969,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7518924805441605534, guid: f2d9b65a54960fb488fc7bb80cdcefd0, type: 3}
+      propertyPath: sprayAmount
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7815981217086135499, guid: f2d9b65a54960fb488fc7bb80cdcefd0, type: 3}
       propertyPath: m_Layer
       value: 8
