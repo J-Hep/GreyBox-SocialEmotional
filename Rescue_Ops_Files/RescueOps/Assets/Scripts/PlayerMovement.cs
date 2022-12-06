@@ -67,4 +67,22 @@ public class PlayerMovement : MonoBehaviour
     {
         movePlayer();
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.transform.name);
+
+        if(collision.transform.tag == "NPC")
+        {
+            collision.transform.gameObject.SetActive(false);
+        }
+
+        if(collision.transform.tag == "WinPlate")
+        {
+            collision.transform.GetChild(0).gameObject.SetActive(false);
+        }
+
+
+    }
+
 }
